@@ -6,6 +6,10 @@ public class RightShift {
         System.out.println(x>>1);   
         int y = 4;
         System.out.println(y>>1);   
+        int z = -17;
+        System.out.println(z>>1); 
+        int l = -19;
+        System.out.println(l>>1);        
         
         int a = -1;
         System.out.println(a>>1);  
@@ -40,7 +44,11 @@ public class RightShift {
         System.out.println(b>>>28); 
         System.out.println(b>>>29); 
         System.out.println(b>>>30); 
+        System.out.println(Integer.toBinaryString(b>>>30));
         System.out.println(b>>>31); 
-        System.out.println(b>>>32); 
+        System.out.println(Integer.toBinaryString(b>>>31));
+        System.out.println(b>>>32);
+        System.out.println(Integer.toBinaryString(b>>>32));
+        System.out.println(b>>>33);
      }    
 }
