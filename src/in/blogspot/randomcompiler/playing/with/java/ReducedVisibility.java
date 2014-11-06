@@ -1,13 +1,15 @@
 package in.blogspot.randomcompiler.playing.with.java;
 
 interface A {
+    // public visibility by default inside class
 	void display();
 }
 
 public class ReducedVisibility implements A {
 
+    // default visibility by default inside class
 	@Override
-	void display() {
+	public void display() {
 		System.out.println("Display Method is called");
 	}
 	

@@ -12,4 +12,9 @@ public class FinalTest {
            l = 40; //commenting this line results in compile time Error
            m = new Integer(50); //commenting this line results in compile time Error
     }
+    
+    public FinalTest() {
+        j = 10;
+        k = 20;
+    }
 }
