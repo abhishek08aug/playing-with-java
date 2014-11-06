@@ -20,9 +20,7 @@ public class RightShift {
         
         int m = 2;
         System.out.println(m>>1);
-        System.out.println(Integer.toBinaryString(m>>1));
         System.out.println(m>>2);
-        System.out.println(Integer.toBinaryString(m>>2));
         
         int n = 16;
         System.out.println(n>>1);
