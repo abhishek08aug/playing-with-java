@@ -1,3 +1,5 @@
+//Looks like it is a jvm bug: http://stackoverflow.com/questions/3170412/why-is-132-1
+
 package in.blogspot.randomcompiler.playing.with.java;
 
 public class RightShift {
