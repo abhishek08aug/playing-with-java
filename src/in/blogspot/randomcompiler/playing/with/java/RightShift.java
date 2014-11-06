@@ -52,5 +52,9 @@ public class RightShift {
         System.out.println(b>>>32);
         System.out.println(Integer.toBinaryString(b>>>32));
         System.out.println(b>>>33);
+        
+        int m = 234567;
+        System.out.println(m>>31);
+        System.out.println(m>>>32);
      }    
 }
